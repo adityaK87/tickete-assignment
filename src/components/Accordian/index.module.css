@@ -1,0 +1,32 @@
+details {
+	margin: 1rem auto;
+	padding: 24px 28px;
+	width: 35em;
+	max-width: calc(100% - 2rem);
+	border: 1px solid #b9bbc6;
+	border-radius: 16px;
+	color: #263238;
+}
+
+summary {
+	margin-left: 30px;
+	padding: 10px 10px 10px 20px;
+	list-style-position: outside;
+	list-style-type: "➕";
+	font-weight: bold;
+	cursor: pointer;
+	color: #1c2024;
+	font-size: 18px;
+	font-weight: 600;
+}
+details[open] > summary {
+	list-style-type: "✖️";
+}
+
+p {
+	padding: 10px 10px 10px 20px;
+	margin-left: 30px;
+	line-height: 1.5;
+	font-size: 16px;
+	color: #60646c;
+}
