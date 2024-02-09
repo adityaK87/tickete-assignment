@@ -1,0 +1,115 @@
+.BookingContainer {
+	width: 384px;
+	/* background-color: red; */
+	height: auto;
+	padding: 10px 10px 20px 10px;
+	border: 1px solid #dddde3;
+	border-radius: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	.bookingPlace {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-top: 5px;
+
+		.placeRating {
+			display: flex;
+			color: #60646c;
+			padding: 0px;
+			margin: 0%;
+			.bold {
+				color: #000;
+			}
+		}
+		.placeName {
+			margin: 0px 0px;
+			font-size: 16px;
+			color: #1c2024;
+			font-weight: 600;
+			line-height: 22px;
+		}
+	}
+
+	.ticketDetailList {
+		display: flex;
+		flex-direction: column;
+		border-bottom: 1px dashed #dddde3;
+		.duration {
+			margin: 0px 20px;
+			font-size: 12px;
+			font-weight: 400;
+			line-height: 18px;
+			letter-spacing: 0em;
+			text-align: left;
+			color: #60646c;
+		}
+		.ticketDetail {
+			display: flex;
+			margin: 10px 0px;
+			font-size: 14px;
+			align-items: center;
+			color: #1c2024;
+			list-style: none;
+			.logo {
+				padding-right: 5px;
+			}
+			.name {
+				font-size: 14px;
+				font-weight: 600;
+				line-height: 20px;
+				letter-spacing: 0em;
+				text-align: left;
+
+				padding-left: 5px;
+			}
+		}
+	}
+	.paymentSummary {
+		width: 100%;
+		display: flex;
+		text-decoration: underline;
+		justify-content: space-between;
+		cursor: pointer;
+	}
+	hr {
+		width: 100%;
+	}
+
+	.totalPayable {
+		font-size: 18px;
+		font-weight: 600;
+		text-align: left;
+		display: flex;
+		margin: 0px;
+		justify-content: space-between;
+	}
+	.savings {
+		width: fit-content;
+		background: #e9f9ee;
+		margin-top: 0px;
+		padding: 2px 4px;
+		display: flex;
+		align-items: center;
+		border-radius: 10px;
+		color: #299764;
+		font-size: 12px;
+	}
+	.charged {
+		font-size: 12px;
+		text-decoration: underline;
+		font-weight: 600;
+		line-height: 18px;
+		color: #60646c;
+	}
+
+	.policies {
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 20px;
+		letter-spacing: 0em;
+		color: #60646c;
+	}
+}
