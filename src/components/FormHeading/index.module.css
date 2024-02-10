@@ -1,0 +1,28 @@
+.formContainer {
+	height: 88px;
+	.formHeading {
+		color: #1c2024;
+		font-size: 22px;
+		font-weight: 600;
+	}
+
+	.formDetail {
+		font-size: 16px;
+		color: #60646c;
+		font-weight: 400;
+		line-height: 20px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.formContainer {
+		height: 96px;
+		.formHeading {
+			font-size: 20px;
+		}
+
+		.formDetail {
+			font-size: 14px;
+		}
+	}
+}
