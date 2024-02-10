@@ -5,6 +5,7 @@
 }
 
 .headerContainer {
+	width: 100%;
 	.checkOut {
 		display: flex;
 		width: 100%;
@@ -41,5 +42,11 @@
 		justify-content: center;
 		color: var(--font-color);
 		background-color: var(--backGroundColor);
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.checkOut > h1::before {
+		content: "🔙";
 	}
 }
