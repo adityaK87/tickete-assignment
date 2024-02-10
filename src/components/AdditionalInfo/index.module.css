@@ -1,0 +1,18 @@
+.additionalInfoContainer {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+
+	hr {
+		color: #dddde3;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.additionalInfoContainer {
+		align-items: center;
+	}
+}

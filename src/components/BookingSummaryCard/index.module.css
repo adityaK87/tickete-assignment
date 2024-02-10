@@ -1,6 +1,5 @@
 .BookingContainer {
-	width: 384px;
-	/* background-color: red; */
+	width: 100%;
 	height: auto;
 	padding: 10px 10px 20px 10px;
 	border: 1px solid #dddde3;
@@ -8,7 +7,10 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-
+	.imageSlider {
+		width: fit-content;
+		margin: auto;
+	}
 	.bookingPlace {
 		display: flex;
 		flex-direction: column;
@@ -111,5 +113,27 @@
 		line-height: 20px;
 		letter-spacing: 0em;
 		color: #60646c;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.BookingContainer {
+		width: 350px;
+	}
+	.policies {
+		display: none;
+	}
+	.btn {
+		display: none;
+	}
+}
+@media screen and (max-width: 500px) {
+	.BookingContainer {
+		width: 325px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.BookingContainer {
+		width: 300px;
 	}
 }

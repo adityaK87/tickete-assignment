@@ -1,0 +1,112 @@
+.paymentMethodContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+
+	.creditCard {
+		border: 1px solid #1c2024;
+		border-radius: 16px;
+		padding: 10px 0px;
+	}
+	.cred {
+		border: none !important;
+	}
+	.totalExpense {
+		display: flex;
+		justify-content: space-between;
+		.rupay {
+			font-size: 18px;
+			font-weight: 600;
+			line-height: 26px;
+		}
+		.chip {
+			width: fit-content;
+			background: #299764;
+			margin-top: 0px;
+			display: flex;
+			align-items: center;
+			border-radius: 16px;
+			color: #e9f9ee;
+			font-size: 12px;
+			height: 20px;
+			padding: 2px 8px;
+		}
+	}
+	.charged {
+		font-size: 12px;
+		text-decoration: underline;
+		font-weight: 600;
+		line-height: 18px;
+		color: #60646c;
+	}
+	.containerRadio {
+		margin: 10px 0px;
+		padding: 10px;
+		font-size: 2rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		color: #8b8d98;
+		font-size: 16px;
+		border: 1px solid #8b8d98;
+		border-radius: 16px;
+		font-weight: 600;
+
+		.upi {
+			background: #e4e4e9;
+			border-radius: 6px;
+			width: 40px;
+			text-align: center;
+			padding: 4px;
+			color: #8b8d98;
+		}
+	}
+
+	.alertBox {
+		border: 1px solid #d3d4db;
+		border-radius: 12px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: baseline;
+		text-align: justify;
+		.alertDetail {
+			display: flex;
+			flex-direction: column;
+			.alertHeading {
+				font-size: 14px;
+				font-weight: 600;
+				line-height: 20px;
+			}
+
+			.alertPara {
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 20px;
+			}
+		}
+	}
+}
+hr {
+	width: 100%;
+}
+input[type="radio"] {
+	width: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+	.containerRadio {
+		font-size: 14px;
+	}
+	.totalExpense {
+		flex-direction: column-reverse;
+		align-items: flex-start;
+	}
+
+	.totalExpenseDown {
+		display: flex;
+		flex-direction: column !important;
+		.chip {
+			display: none;
+		}
+	}
+}

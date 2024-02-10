@@ -88,10 +88,19 @@ const BookingSummaryCard = () => {
 			</p>
 			<p className={styles.policies}>
 				By clicking “confirm & pay”, you agree to
-				<a href=""> Tickete’s general terms and conditions </a>
-				and <a href="#"> cancellation policy.</a>
+				<a href="https://www.linkedin.com/in/adityak87/">
+					{" "}
+					Tickete’s general terms and conditions{" "}
+				</a>
+				and{" "}
+				<a href="https://www.linkedin.com/in/adityak87/">
+					{" "}
+					cancellation policy.
+				</a>
 			</p>
-			<Button />
+			<p className={styles.btn}>
+				<Button />
+			</p>
 		</div>
 	);
 };
