@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./index.module.css";
-const Detail = ({ summary, paragrapgh }) => {
+const Detail = ({ summary, paragraph }) => {
 	return (
-		<details open className={styles.accordianContainer}>
+		<details className={styles.accordianContainer}>
 			<summary>What are some hidden gems to see in Rome?</summary>
-			<p>
+			<p className={styles.paragraph}>
 				Rome is packed with hidden gems. If you love art, don't miss the
 				Galleria Doria Pamphilj or Palazzo Barberini. The Museo Barracco
 				is a free museum and well worth a quick visit. If you love the
