@@ -1,0 +1,19 @@
+.imgSliderContainer {
+	position: relative;
+	.bestseller {
+		position: absolute;
+		padding: 5px 10px;
+		margin: 0px auto;
+		top: 8px;
+		left: 8px;
+		color: #1c2024;
+		background: #ffffff;
+		font-weight: 600;
+		border-radius: 8px;
+		z-index: 1;
+	}
+
+	.rsis-image {
+		border-radius: 8px !important;
+	}
+}
